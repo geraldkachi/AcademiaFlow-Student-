@@ -54,7 +54,7 @@ export default function ExamTaking({ session, exam, onEnd }: Props) {
   }
 
   return (
-    <div className="fixed inset-0 bg-white flex flex-col">
+    <div className=" inset-0 bg-white flex flex-col">
       {/* Header */}
       <div className="flex items-center justify-between px-4 sm:px-8 py-3 border-b border-gray-100">
         <h2 className="font-bold text-navy">{exam?.subject || 'Chemistry'}</h2>
