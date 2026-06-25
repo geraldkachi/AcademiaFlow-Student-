@@ -31,8 +31,8 @@ export default function LoginPage() {
 
     try {
       // const result = await login(form.email, form.password, form.remember);
-      toast.success(`Welcome back!`);
       navigate('/dashboard');
+      toast.success(`Welcome back!`);
     } catch (error: any) {
       toast.error(error.message || 'Invalid credentials');
     } finally {
